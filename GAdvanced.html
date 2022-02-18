@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="GoogleHomePageStyling.css">
+    </head>
+    <body>
+        <ul class="anavbar">
+            <li style="float: left;"><span class="ablue">G</span><span class="ablack">CS50</span><span class="ared">o</span><span class="ayellow">o</span><span class="ablue">g</span><span class="agreen">l</span><span class="ared">e</span></li>
+    	    <li><a href="GoogleHomePage.html">Back to Search</a></li>
+        </ul>
+        <h2>Advanced Search</h2>
+        <hr>
+        
+        <form action="https://google.com/search">
+            <table class="tableinput">
+                <thead>
+                    <tr>
+                        <th><h3>Find pages with...</h3></th>
+                        <th></th>
+                        <th><h3>To do this in the search box</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>all these words:</td>
+                        <td><input type="text" class="asearchbar" name="as_q"></td>
+                        <td>Type the important words: tri-colour rat terrier</td>
+                    </tr>
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td><input type="text" class="asearchbar" name="as_epq"></td>
+                        <td>Put exact words in quotes: "rat terrier"</td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input type="text" class="asearchbar" name="as_oq"></td>
+                        <td>Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td>none of these word:</td>
+                        <td><input type="text" class="asearchbar" name="as_eq"></td>
+                        <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td><input type="submit" value="Advanced Search" class="asearchbutton"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

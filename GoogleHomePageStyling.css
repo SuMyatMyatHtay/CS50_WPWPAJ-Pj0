@@ -1,0 +1,181 @@
+.navbar {
+  text-align: right;
+}
+
+.navbar > li {
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.anavbar {
+  text-align: right;
+}
+
+.anavbar > li {
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anavbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.anavbar a:hover {
+  text-decoration: underline;
+  color: purple
+}
+
+.searchbar {
+  width: 600px;
+  border-radius: 23px;
+  padding: 9px;
+  border-color: rgb(202, 201, 201);
+  border-width: 2px;
+  border-style: solid;
+  margin: 1px;
+  background-color: white;
+}
+
+.asearchbar {
+  width: 500px;
+  border-radius: 5px;
+  padding: 3px;
+  border-color: rgb(202, 201, 201);
+  border-width: 2px;
+  border-style: solid;
+  margin: 7px;
+}
+
+.searchbutton {
+  background-color: rgb(255, 245, 240);
+  width: 150px;
+  border-style: none;
+  padding: 7px 5px;
+  color: rgb(102, 102, 102);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  margin: 6px;
+}
+
+.searchbutton:hover {
+  background-color: purple;
+  color: white;
+}
+
+.asearchbutton {
+  background-color: rgb(70, 104, 255);
+  width: 150px;
+  border-style: none;
+  padding: 7px 5px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  float: right;
+  margin: 10px;
+}
+
+.asearchbutton:hover {
+  background-color: purple;
+  color: white;
+}
+
+.red {
+  color: red;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+.blue {
+  color: blue;
+  font-size: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.yellow {
+  color: yellow;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+.green {
+  color: green;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+.black {
+  color: black;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ared {
+  color: red;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.ablue {
+  color: blue;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ayellow {
+  color: yellow;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.agreen {
+  color: green;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.ablack {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.images {
+  color: blue;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+h2 {
+  margin: 40px 0px 9px 40px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tableinput {
+  margin: 30px 40px;
+}
+
+.tableinput tr {
+  font-family: cursive;
+  text-align: left;
+  font-size: 13px;
+}
